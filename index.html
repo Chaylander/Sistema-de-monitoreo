@@ -11,15 +11,30 @@
  crossorigin=""></script>
 
  <link rel="stylesheet" href="./mapa.css">
+ <title>Mapa</title>
+ 
 </head>
+
 <body>
+    <header>
+        <h1>Sistema de monitoreo</h1>
+    </header>
+
+    <div class="container">
+        <select name="SeleccionaLugar" id="SeleccionaLugar">
+            <option disabled>Selecciona un Lugar para ir</option>
+            <option value="20,-103">Parque Morelos</option>
+            <option value="28,-103">Take me somewhere else</option>
+        </select>
+    </div>
+   
+
     <div id="map"></div>
     <a href="https://www.maptiler.com" style="position:absolute;left:10px;bottom:10px;z-index:999;"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
-  </div>
-
-  <p><a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a></p>
+    </div>
   
-  <script src="./app.js"></script>
-  <link rel="stylesheet" href="./mapa.css">
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./mapa.css">
+
 </body>
 </html>
