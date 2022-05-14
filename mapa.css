@@ -11,7 +11,7 @@
 	left: 30%;
 	width: 40%; 
 	height: 50%;
-	top:20%;
+	top:50%;
 }
 
 header{
@@ -31,13 +31,27 @@ header h1{
 	margin-left: 2%;
 	font-size: 50px;
 	color: white;
-
 }
 
-.container{ 
+h2{
+	font-family: 'Fredoka', sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+.containerSelect{ 
 	position: absolute;
 	width: 10%;
 	height: 5%;
-	margin-top: 8%;
+	margin-top: 28%;
 	margin-left: 2%;
+}
+
+.containerLetrero{
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	width:25%;
+	height: 5%;
+	margin-top: 8%;
+	margin-left: 10%;
 }
