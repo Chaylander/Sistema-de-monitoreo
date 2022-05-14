@@ -1,5 +1,9 @@
-body { 
-	margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #map { 
@@ -7,4 +11,33 @@ body {
 	left: 30%;
 	width: 40%; 
 	height: 50%;
+	top:20%;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background-color: #4446c5;
+}
+
+header h1{
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Fredoka', sans-serif;
+	margin-top: 1%;
+	margin-left: 2%;
+	font-size: 50px;
+	color: white;
+
+}
+
+.container{ 
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	margin-top: 8%;
+	margin-left: 2%;
 }
