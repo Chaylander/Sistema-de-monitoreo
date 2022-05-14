@@ -11,7 +11,7 @@
 	left: 30%;
 	width: 40%; 
 	height: 50%;
-	top:50%;
+	top:100%;
 }
 
 header{
@@ -36,6 +36,7 @@ header h1{
 h2{
 	font-family: 'Fredoka', sans-serif;
 	color: rgb(0, 0, 0);
+	font-size: 30px;
 }
 
 .containerSelect{ 
@@ -49,9 +50,25 @@ h2{
 .containerLetrero{
 	display: flex;
 	justify-content: space-around;
-	position: absolute;
 	width:25%;
 	height: 5%;
-	margin-top: 8%;
+	margin-top: 15%;
 	margin-left: 10%;
+}
+
+.iconContainer{
+	width: 5%;
+	height: 5%;
+	width:25%;
+	height: 5%;
+	margin-top: -7%;
+	margin-left: 70%;
+}
+
+.containerInfoMapa{
+	width: 75%;
+	height: 100px;
+	margin-top: 10%;
+	margin-left: 12.5%;
+	background-color: black;
 }
