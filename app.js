@@ -24,7 +24,7 @@ const fetchDrawonMap = () => {
                 color: 'red',
                 fillColor: 'red',
                 fillOpacity: 0.5,
-                radius: 700
+                radius: 70
             }).addTo(map);
             marker.bindPopup("<b>Coordenadas: </b>" + coordenadas + "\n <b>Contaminante: </b>" + data[i].contaminante + "\n <b>Fecha: </b>" + data[i].fecha);
         }
@@ -37,14 +37,6 @@ const fetchDrawonMap = () => {
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-
-var circle = L.circle([23, -102], {
-    color: 'red',
-    fillColor: 'red',
-    fillOpacity: 0.5,
-    radius: 500
-}).addTo(map);
-
 
 
 
