@@ -85,12 +85,13 @@ h3{
 
 .boton{
 	width: 10%;
-	height: 5%;
+	height: 20%;
 	margin-top: 0%;
 	margin-left: 48%;
 	background-color: rgb(50, 92, 158);
 	box-shadow: -2px 1px rgb(88, 84, 84);
 	border-radius: 3px;
+	color: #fff;
 }
 
 

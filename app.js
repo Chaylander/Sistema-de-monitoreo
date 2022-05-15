@@ -20,7 +20,12 @@ const fetchDrawonMap = () => {
             let coordenadas = data[i].lugar;
             let coordenadasSplit = coordenadas.split(",");
             console.log(coordenadasSplit);
-            let marker = L.circleMarker(coordenadasSplit).addTo(map);
+            let marker = L.circleMarker(coordenadasSplit, {
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5,
+                radius: 700
+            }).addTo(map);
             marker.bindPopup("<b>Coordenadas: </b>" + coordenadas + "\n <b>Contaminante: </b>" + data[i].contaminante + "\n <b>Fecha: </b>" + data[i].fecha);
         }
 });
