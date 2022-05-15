@@ -8,7 +8,7 @@ form.addEventListener('submit', (e) => {
     const url = 'https://hackoceanmapamb.azurewebsites.net/mapamb/reports';
     const urlLocal = 'http://localhost:8080/mapamb/reports';
 
-    fetch(urlLocal, {
+    fetch(url, {
         method: 'POST',
         body: data
     })
