@@ -25,7 +25,7 @@ const fetchDrawonMap = () => {
                 color: 'red',
                 fillColor: 'red',
                 fillOpacity: 0.5,
-                radius: 70
+                radius: 20
             }).addTo(map);
             marker.bindPopup("<b>Coordenadas: </b>" + coordenadas + "\n <b>Contaminante: </b>" + data[i].contaminante + "\n <b>Fecha: </b>" + data[i].fecha);
         }
