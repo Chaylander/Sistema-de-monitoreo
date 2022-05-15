@@ -1,6 +1,6 @@
 # Proyecto Hack the Ocean 🌊
 
-### Sistema de monitoreo ⛽️
+### Sistema de Monitoreo ⛽️
 Aplicación web para que embarcaciones puedan reportar derrames de petróleo en los océanos para informar a las autoridades. 
 
 ## BackEnd
@@ -9,11 +9,15 @@ Aplicación web para que embarcaciones puedan reportar derrames de petróleo en 
 ## Video 
 [🔗 Solución]()
 
-## Technologías utilizadas 
+## Technologías Utilizadas 
 - HTML 
 - CSS
 - JavaScript 
 
 <p align="left"> <img src="https://geoinnova.org/wp-content/uploads/2021/08/logos.png" width="25%" style="display: block; margin: 0 auto"><p/>
 
-## Prototipo página web 💻
+## Diagrama Solución
+
+<p align="left"> <img src="https://estefysaucedo.com/HackTheOcean/DiagramaSoluci%C3%B3n.png" width="25%" style="display: block; margin: 0 auto"><p/>
+
+## Prototipo Página Web 💻
