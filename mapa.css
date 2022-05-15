@@ -39,6 +39,12 @@ h2{
 	font-size: 30px;
 }
 
+h3{
+	font-family: 'Fredoka', sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+}
+
 .containerSelect{ 
 	position: absolute;
 	width: 10%;
@@ -70,5 +76,4 @@ h2{
 	height: 100px;
 	margin-top: 10%;
 	margin-left: 12.5%;
-	background-color: black;
 }
