@@ -16,7 +16,8 @@ const fetchDrawonMap = () => {
         console.log(data);
         let NumeroCoordenadas = data.length;
         console.log("Numero de coordenadas: " + NumeroCoordenadas);
-        for(let i=01; i<4; i++){
+
+        for(let i=0; i<=NumeroCoordenadas; i++){
             let coordenadas = data[i].lugar;
             let coordenadasSplit = coordenadas.split(",");
             console.log(coordenadasSplit);

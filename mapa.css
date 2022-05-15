@@ -48,16 +48,6 @@ h3{
 	font-size: 25px;
 }
 
-
-
-.containerSelect{ 
-	position: absolute;
-	width: 10%;
-	height: 5%;
-	margin-top: 18%;
-	margin-left: 22%;
-}
-
 .containerLetrero{
 	display: flex;
 	justify-content: space-around;
