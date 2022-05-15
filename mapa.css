@@ -8,10 +8,10 @@
 
 #map { 
 	position: absolute;
-	left: 30%;
+	left: 40%;
 	width: 40%; 
 	height: 50%;
-	top:100%;
+	top:90%;
 }
 
 header{
@@ -53,8 +53,8 @@ h3{
 	position: absolute;
 	width: 10%;
 	height: 5%;
-	margin-top: 28%;
-	margin-left: 2%;
+	margin-top: 18%;
+	margin-left: 22%;
 }
 
 .containerLetrero{
