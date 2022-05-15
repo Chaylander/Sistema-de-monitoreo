@@ -8,7 +8,7 @@
 
 #map { 
 	position: absolute;
-	left: 40%;
+	left: 35%;
 	width: 40%; 
 	height: 50%;
 	top:90%;
@@ -21,7 +21,8 @@ header{
 	width: 90%;
 	height: 10%;
 	background-color: rgb(5, 68, 104);
-	z-index: -1;
+	z-index: 1;
+	opacity: 100%;
 }
 
 header h1{
@@ -80,6 +81,16 @@ h3{
 	height: 100px;
 	margin-top: 10%;
 	margin-left: 25%;
+}
+
+.boton{
+	width: 10%;
+	height: 5%;
+	margin-top: 0%;
+	margin-left: 48%;
+	background-color: rgb(50, 92, 158);
+	box-shadow: -2px 1px rgb(88, 84, 84);
+	border-radius: 3px;
 }
 
 
