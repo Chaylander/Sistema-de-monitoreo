@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 #map { 
@@ -46,6 +46,21 @@ h3{
 	font-size: 25px;
 }
 
+body a {
+	text-align: center;
+	margin-left: 48%;
+	position: relative;
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Fredoka', sans-serif;
+}
+
+.fixModal{
+	background-color: #c0392b;
+}
+
 .containerSelect{ 
 	position: absolute;
 	width: 10%;
@@ -77,4 +92,99 @@ h3{
 	height: 100px;
 	margin-top: 10%;
 	margin-left: 12.5%;
+}
+
+
+#show-modal{
+	text-align: center;
+	padding: 15px 15px;
+	color: white;
+	border-radius: 4.5px;
+	transition: all 0.15s linear;
+	background-color: #4446c5;
+}
+
+#show-modal:hover{
+	cursor: pointer;
+	background-color: #bc9d1a;
+}
+
+.modal{
+	position: fixed;
+	top: -100vh;
+	left: 0;
+	z-index: 99999999;
+	width: 100vw;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	transition: opacity 0.35s ease;
+}
+
+.modal .content-modal{
+	width: 100%;
+	max-width: 900px;
+	position: fixed;
+	left: 40%;
+	top: -100vh;
+	transition: top 0.35 ease;
+	margin-left: -250px;
+	background-color: white;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	z-index: 99999;
+}
+
+.modal h2{
+	padding: 0.5em;
+	text-align: center;
+	color: #444444;
+	margin: 0;
+}
+
+.modal article{
+	height: 700px;
+	background-color: #e3e1e0;
+}
+
+.close-modal{
+	color:#e74c3c;
+	position: absolute;
+	top: 0em;
+	right: 0.375em;
+	margin: 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.modal a:hover{
+	color: #c0392b;
+}
+
+.modal:target{
+	opacity: 1;
+	top: 0;
+}
+
+.modal .btn-close-modal{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99991;
+}
+
+.modal:target .content-modal{
+	top: 50px;
+	transition: top 0.35 ease;
+}
+
+@media (max-width: 1000px){
+	.modal .content-modal{
+		width: 90%;
+		max-width: none;
+		left: 5%;
+		margin-left: 0;
+	}
 }
