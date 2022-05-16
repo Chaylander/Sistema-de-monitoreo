@@ -24,3 +24,4 @@ Aplicación web para que embarcaciones puedan reportar derrames de petróleo en 
 <p align="left"> <img src="https://estefysaucedo.com/HackTheOcean/DiagramaSoluci%C3%B3n.png" width="25%" style="display: block; margin: 0 auto"><p/>
 
 ## Prototipo Página Web 💻
+[🔗 Sistema Monitoreo](https://chaylander.github.io/Sistema-de-monitoreo/)
