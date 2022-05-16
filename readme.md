@@ -3,9 +3,6 @@
 ### Sistema de Monitoreo ⛽️
 Aplicación web para que embarcaciones puedan reportar derrames de petróleo en los océanos para informar a las autoridades. 
 
-## Link de despliegue
-[🔗 Link](https://chaylander.github.io/Sistema-de-monitoreo/)
-
 ## BackEnd
 [🔗 Repo de BackEnd](https://github.com/LeonRivera/HackTheOcean-MapAmb)
 
